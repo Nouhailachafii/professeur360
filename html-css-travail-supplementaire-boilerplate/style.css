@@ -1,0 +1,145 @@
+/* Write some CSS below */
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-gap: 0;
+	min-height: 100vh;
+}
+
+.navbar {
+    background-color: #1E223C;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+}
+  
+  .navbar-brand img {
+	width: auto;
+	height: 100%; 
+  }
+
+.navbar-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-user ul li {
+	margin-bottom: 10px;
+	border: 1px solid #fff; 
+	padding: 10px 15px;
+  }
+
+.navbar-user a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar-user p {
+	color: inherit;
+	text-decoration: none;
+	font-size: small;
+	text-align: center;
+  }
+  
+
+.container {
+	width: 90%;
+	margin: 20px auto;
+
+}
+
+.container-section {
+	display: flex;
+	margin-bottom: 20px;
+	background-color: #e0fedb; 
+
+  }
+  
+  .section-left {
+	width: 40%;
+	background-color: #e0fedb; 
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .section-left img {
+	width: 80%;
+	height: auto; 
+  }
+  
+  .section-right {
+	width: 60%;
+	padding: 20px;
+  }
+  
+  .section-right h1 {
+	margin-top: 80px;
+	text-align: center;
+	color: #4e4892;
+  }
+  
+  .section-right h2 {
+	text-align: center;
+	color: #000000;
+  }
+
+  .section-right p {
+	text-align: center;
+	color: #000000;
+	font-style: italic;
+  }
+
+  .liste-absents {
+    margin-bottom: 20px;
+}
+
+.liste-absents h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banniere {
+    background-color: white; 
+    border: 2px solid #4e4892; 
+    padding: 10px; 
+	font-weight: bold;
+
+}
+
+.banniere button {
+    padding: 10px 16px;
+    background-color: #4e4892;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	margin-left: 700px;
+}
+
+.banniere button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
